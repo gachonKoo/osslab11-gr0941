@@ -1,6 +1,9 @@
 import math
 
-def distance(p1, p2):
-	x1, y1 = p1
-	x2, y2 = p2
-	return math.sqrt((x2-x1)**2 + (y2 - y1)**2)
+def pythagorass(a, b):
+	c = math.sqrt(a** + b**)
+	return c
+
+def circle(r):
+	area = math.pi * r**2
+	return area

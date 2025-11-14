@@ -1,9 +1,15 @@
-from geo import distance
+import geo.utils as utils
 
-def main():
-	p1 = (0,0)
-	p2 = (3,4)
-	print(distance(p1,p2))
-if __name__ == "_main_":
-	main()
+#calculate the length of hypotenuse(c) when a=3 and b=4
+
+a, b = 3, 4
+c = utils.ptthagross(a, b)
+print('c =', c)
+
+
+# calculate the area of circle with radius r = 10
+r = 10
+area = utils.circle(r)
+print('area =', area)
+
 
