@@ -1,1 +1,1 @@
-from .utils import distance
+from .utils import pythagorass, circle
