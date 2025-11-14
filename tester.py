@@ -4,6 +4,6 @@ def main():
 	p1 = (0,0)
 	p2 = (3,4)
 	print(distance(p1,p2))
-if _name_ == "_main_":
+if __name__ == "_main_":
 	main()
 
